@@ -1,0 +1,42 @@
+.summary-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-end;
+  margin-top: 5rem;
+}
+
+.total-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.total-label {
+  color: var(--color-light-brown);
+  font-weight: var(--font-weight-regular);
+  font-size: 1.5rem;
+  line-height: 2rem;
+}
+
+.total-amount {
+  color: var(--color-dark-brown);
+  font-size: 3rem;
+  line-height: 3.9rem;
+  font-weight: var(--font-weight-bold);
+}
+
+.percent-container {
+  text-align: right;
+  font-size: 1.5rem;
+  line-height: 2rem;
+}
+
+.percent-amount {
+  color: var(--color-dark-brown);
+  font-weight: var(--font-weight-bold);
+}
+
+.percent-label {
+color: var(--color-light-brown);
+font-weight: var(--font-weight-regular);
+}

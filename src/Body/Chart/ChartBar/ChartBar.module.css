@@ -1,0 +1,39 @@
+.bar-container {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+  align-items: center;
+  height: fit-content;
+}
+
+.highlight-value {
+  position: absolute;
+  top: -3.5rem;
+  font-size: var(--font-weight-bold);
+  color: var(--color-soft-white);
+  font-size: 1.4rem;
+  line-height: 1.8rem;
+  background-color: var(--color-dark-brown);
+  padding: 0.5rem;
+  border-radius: 0.5rem;
+}
+
+.bar {
+  width: 3.3rem;
+  border-radius: 3px;
+}
+
+.bar-container:hover {
+  cursor: pointer;
+  opacity: 0.8;
+}
+
+.day-label {
+  font-weight: var(--font-weight-regular);
+  font-size: 1.2rem;
+  line-height: 1.6rem;
+  color: var(--color-light-brown);
+  margin-top: 1.1rem;
+  text-align: center;
+}

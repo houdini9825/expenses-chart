@@ -1,38 +1,42 @@
-.App {
-  text-align: center;
+@import url('https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;700&display=swap');
+
+:root {
+  --color-background: #F8E9DD;
+  --color-white: white;
+  --color-soft-white: #FFFBF6;
+  --color-light-brown: #92857A;
+  --color-dark-brown: #382314;
+  --color-cyan: #76B5BC;
+  --color-red: #EC755D;
+
+  --font-family-primary: 'DM Sans', sans-serif;
+
+  --font-weight-regular: 400;
+  --font-weight-bold: 700;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: inherit;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+html {
+	font-size: 62.5%;
+	box-sizing: border-box;
+  font-family: var(--font-family-primary);
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+body {
   display: flex;
   flex-direction: column;
   align-items: center;
   justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+	height: 100vh;
+	width: 100vw;
+  background-color: var(--color-background);
 }
 
-.App-link {
-  color: #61dafb;
-}
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+#root {
+  width: 34.3rem;
 }
